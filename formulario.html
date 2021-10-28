@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Incripción al Club</h1>
+    <form>
+        <fieldset>
+           <legend>Datos Personales</legend>
+           <label for="Nombre">Nombre:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="Apellidos">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="Teléfono">Teléfono:</label><br>
+        <input type="number" id="Teléfono" name="Teléfono"><br>
+
+        <label for="Correo">email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>
+        Fecha: <input type="date" name="fecha">
+        </p>
+        </fieldset>
+        <fieldset>
+        <legend>Capacitación</legend>
+        <p>Nivel de Inglés:</p>
+        <select name="menu">
+            <option value="0">...</option>
+            <option value="1">B1</option>
+            <option value="2">B2</option>
+            <option value="3">C1</option>
+          </select>
+          <p>Máximo de estudios obtenidos:</p>
+          <select name="menu" multiple>
+            <option value="1">ESO</option>
+            <option value="2">Grado Medio</option>
+            <option value="3">Bachiller</option>
+            <option value="4">Grado Superior</option>
+            <option value="5">Universidad</option>
+          </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>Inscripción</legend>
+            <p>Contraseña<input type="password" name="contrasena"></p>
+            <p>Repeir Contraseña<input type="password" name="contrasena"></p>
+            <input type="button" value="Confirmar">
+        </fieldset>
+        <input type="button" value="Enviar">
+    </form>
+</body>
+</html>
