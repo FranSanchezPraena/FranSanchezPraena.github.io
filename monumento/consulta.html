@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- TITULO -->
+    <h1>Estatua de la Libertad</h1>
+    <!-- FOTO -->
+    <img src="../../../Downloads/Empire-state-1-1024x762.jpg" alt="Empire State" width="50%">
+    <!-- LINEA -->
+    <hr>
+    <!-- MENU -->
+    <nav>
+        <ul style="list-style: none; padding: 0;">
+            <li><a href="../pages/inicio.html" style="float: left; padding: 3px;"><b>Inicio</b></a>
+            <li><a href="../pages/historia.html" style="float: left; padding: 3px;"><b>Historia</b></a></li>
+            <li><a href="../pages/enlaces_externos.html" style="float: left; padding: 3px;"><b>Enlaces externos</b></a></li>
+            <li><a href="../pages/contacto.html" style="float: left; padding: 3px;"><b>Contactar con nuestra asociación</b></a></li>
+        </ul>
+    </nav>
+    <!-- SALTOS LINEA -->
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="Apellidos">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="Teléfono">Teléfono:</label><br>
+        <input type="number" id="Teléfono" name="Teléfono"><br>
+
+        <label for="Correo">email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+          </p>
+          <p>Edad:
+            <input type="radio" name="edad" value="menor"> Menor
+            <input type="radio" name="edad" value="adulto" required> Adulto
+          </p>
+
+          <input type="submit" value="Enviar"><br>
+          <input type="reset" value="Borrar"><br>
+    </fieldset>
+
+      </form>
+</body>
+</html>
